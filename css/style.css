@@ -1,0 +1,137 @@
+/*
+ * General Styles
+*/
+
+
+body {
+  background: url(../images/ac-hb2.jpg);
+  font-family: 'Open Sans', arial, sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  max-width: 600px;
+  margin: auto;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.75;
+  margin-bottom: 20px;
+  padding: 20px 20px 0 20px;
+  font-family: Bebas Neue;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+h1, h2 {
+  font-family: 'Rubik Beastly', cursive;
+  color: #63C4B4;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+h1 {
+  padding-top: 25px;
+  font-size: 3.125rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+/*
+ * Container Styles
+*/
+.container {
+  width: 630px;
+  margin: 195px auto;
+  background-color: transparent;
+  border-radius: 20px 20px 20px 20px;
+  border: -.05cm;
+  outline: none;
+}
+
+.header img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  object-fit: contain;
+  padding-bottom: auto;
+}
+
+intro img {
+  padding-left: 5px;
+}
+
+.intro img, .contact img, .mapoverview img{
+  max-width: 630px;
+  width: 100%;
+  vertical-align: top;
+}
+
+.mapoverview img {
+  border-radius: 0 0 20px 20px;
+  padding-bottom: auto;
+  vertical-align: top;
+}
+
+.intro {
+  height: 100%;
+  display: block;
+  background-color: white;
+  float: left;
+  object-fit: contain;
+  vertical-align: baseline;
+  border: 0;
+}
+
+.contact {
+  text-align: center;
+  background-color: lightgray;
+  padding: 25px 0 20px 0;
+  object-fit: contain;
+}
+
+section.mapoverview {
+  margin: auto;
+  border-radius: 0 0 20px 20px;
+  max-width: 100%;
+  vertical-align: baseline;
+}
+
+section.footer {
+  background-color: transparent;
+}
+
+aside.left {
+  float: left;
+  padding-right: 0;
+  padding-left: 20px;
+  margin-right: 0 ;
+}
+
+aside.right {
+  float: right;
+}
+

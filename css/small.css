@@ -1,0 +1,41 @@
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0; 
+}
+
+.header img {
+  border-radius: 0;
+}
+
+.intro {
+  display: block;
+  text-align: center;
+  float: none;
+}
+
+.contact {
+  display: block;
+  text-align: center;
+  float: none;
+  margin: 0;
+}
+
+.mapoverview {
+  width: 100%;
+  max-width: 600px;
+  object-fit: contain;
+}
+
+aside.right img, aside.left img {
+  border-radius: 20px;
+}
+
+aside.right, aside.left {
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  float: inherit;
+}
+
